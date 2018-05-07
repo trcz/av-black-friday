@@ -7,8 +7,9 @@ I will start with exploratory data analysis
   
 **Dataset overview**  
   
-| User_ID | 550068 | non-null int64 |
+| Column name | Values | Type |
 | --- | --- | --- |
+| User_ID | 550068 | non-null int64 |
 | Product_ID | 550068 | non-null object |
 | Gender | 550068 | non-null object |
 | Age | 550068 | non-null object |
