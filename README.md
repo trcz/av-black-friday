@@ -26,4 +26,7 @@ Total number of records is 550068. Missing values occur in product categories 2 
 I will focus at Purchase column first.  
   
 Purchase is the only continous variable in the set while the rest is categorical.  
-![1](1.png)
+Purchase distribution:  
+![1](1.png)  
+  
+As we can see the distribution doesn't fit any particular scheme. It is impossible to find any correlation due to lack of continous variables in the set.
