@@ -8,3 +8,6 @@ with open("train.csv", "rb") as myFile:
 
 print(df.info())
 print(df.nunique())
+plt.figure(figsize=(9, 8))
+sns.distplot(df["Purchase"], color="b")
+plt.savefig("1.png")
