@@ -23,4 +23,6 @@ I will start with exploratory data analysis
 | Purchase | 550068 | 18105 | non-null int64 |
 
 Total number of records is 550068. Missing values occur in product categories 2 and 3. As we can see there are only 5891 unique users, 7 age categories and 20 product categories.  
-I will focus at Purchase column first.
+I will focus at Purchase column first.  
+  
+Purchase is the only continous variable in the set while the rest is categorical.
