@@ -32,5 +32,13 @@ Purchase distribution:
   
 As we can see the distribution doesn't fit any particular scheme. It is impossible to find any correlation due to lack of continous variables in the set.
   
-**Categorical variables**
-I will take a look at categorical variables' counts.
+**Categorical variables**  
+I will take a look at categorical variables' counts.  
+![2](2.png)  
+  
+For each variable most purchases have been done by:  
+- males  
+- people aged 26-35  
+- people who have been living in their current city for 1 year  
+  
+Occupation values are masked and we can only see there are some huge disproportions between their counts.
