@@ -34,7 +34,7 @@ As we can see the distribution doesn't fit any particular scheme. It is impossib
   
 **Categorical variables**  
 I will take a look at categorical variables' counts.  
-![2](Plots/2.png)  
+![2](Plots/CategoricalCounts.png)  
   
 For each variable most purchases have been done by:  
 - males  
