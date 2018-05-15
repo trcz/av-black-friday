@@ -32,3 +32,5 @@ Purchase distribution:
   
 As we can see the distribution doesn't fit any particular scheme. It is impossible to find any correlation due to lack of continous variables in the set.
   
+**Categorical variables**
+I will take a look at categorical variables' counts.
