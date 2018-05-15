@@ -28,7 +28,7 @@ I will focus at Purchase column first.
 **Purchase variable**  
 Predicting purchase value is the matter of the contest. It's the only continous variable in the set while the rest is categorical.  
 Purchase distribution:  
-![1](Plots/1.png)  
+![1](Plots/PurchaseDist.png)  
   
 As we can see the distribution doesn't fit any particular scheme. It is impossible to find any correlation due to lack of continous variables in the set.
   
