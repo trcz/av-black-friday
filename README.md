@@ -52,3 +52,5 @@ Next I will take a look at boxplots picturing correlation between Purchase and r
 ![7](Plots/Product_Category_1.png)
 ![8](Plots/Product_Category_2.png)
 ![9](Plots/Product_Category_3.png)
+
+Purchase between product categories varies much more than with any other variable. Maybe that's what I should focus at.
