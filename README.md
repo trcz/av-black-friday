@@ -41,4 +41,14 @@ For each variable most purchases have been done by:
 - people aged 26-35  
 - people who have been living in their current city for 1 year  
   
-Occupation values are masked and we can only see there are some huge disproportions between their counts.
+Occupation values are masked and we can only see there are some huge disproportions between their counts.  
+  
+**Boxplots**  
+Next I will take a look at boxplots picturing correlation between Purchase and rest of variables  
+![Gender]
+![Marital_Status]
+![Occupation]
+![Stay_in_current_city_years]
+![Product_Category_1]
+![Product_Category_2]
+![Product_Category_3]
