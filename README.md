@@ -45,10 +45,10 @@ Occupation values are masked and we can only see there are some huge disproporti
   
 **Boxplots**  
 Next I will take a look at boxplots picturing correlation between Purchase and rest of variables  
-![Gender]
-![Marital_Status]
-![Occupation]
-![Stay_in_current_city_years]
-![Product_Category_1]
-![Product_Category_2]
-![Product_Category_3]
+![3](Plots/Gender.png)
+![4](Plots/Marital_Status.png)
+![5](Plots/Occupation.png)
+![6](Plots/Stay_In_Current_City_Years.png)
+![7](Plots/Product_Category_1.png)
+![8](Plots/Product_Category_2.png)
+![9](Plots/Product_Category_3.png)
