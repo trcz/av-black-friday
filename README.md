@@ -57,7 +57,7 @@ Purchase between product categories varies much more than with any other variabl
   
 Another problem is quite big number of unique values in User_ID and Product_ID which makes data hard to plot.  
   
-**Feature importance**
+**Feature importance**  
 It's nearly impossible for my PC to compute stable random forests. There are two reasons:  
 - over 500k records kills my memory  
 - e.g. Product_ID is categorical variable with huge number of unique values, creating dummies for this column results in adding total 3631 additional columns for training dataframe  
