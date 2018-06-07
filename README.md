@@ -53,4 +53,13 @@ Next I will take a look at boxplots picturing correlation between Purchase and r
 ![8](Plots/Product_Category_2.png)
 ![9](Plots/Product_Category_3.png)
 
-Purchase between product categories varies much more than with any other variable. Maybe that's what I should focus at.
+Purchase between product categories varies much more than with any other variable. The bad thing is product categories 2 and 3 are the only columns with missing values which could mislead training algorithm.  
+  
+Another problem is quite big number of unique values in User_ID and Product_ID which makes data hard to plot.  
+  
+**Feature importance**
+It's nearly impossible for my PC to compute stable random forests. There are two reasons:  
+- over 500k records kills my memory  
+- e.g. Product_ID is categorical variable with huge number of unique values, creating dummies for this column results in adding total 3631 additional columns for training dataframe  
+  
+I decided to start building predicting models and see the results. I will try to use factorization matrix and in case it fails I'm gonna use xgboost.
