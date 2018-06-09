@@ -39,9 +39,9 @@ dm_train = xgb.DMatrix(train.values, label=pur_train, missing=np.nan)
 
 param = {'objective': 'reg:linear', 'booster': 'gbtree', 'silent': 1, 'max_depth': 10, 'eta': 0.1, 'nthread': 4, 'subsample': 0.8, 'colsample_bytree': 0.8, 'min_child_weight': 20, 'max_delta_step': 0, 'gamma': 0, 'seed': 2528}
 
-round = 750
+n_round = 750
 
-clf = xgb.train(param, dm_train, round)
+clf = xgb.train(param, dm_train, n_round)
 dm_test = xgb.DMatrix(test.values, missing=np.nan)
 predictions = clf.predict(dm_test)
 
