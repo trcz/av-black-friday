@@ -62,4 +62,5 @@ It's nearly impossible for my PC to compute stable random forests. There are two
 - over 500k records kills my memory  
 - e.g. Product_ID is categorical variable with huge number of unique values, creating dummies for this column results in adding total 3631 additional columns for training dataframe  
   
-I decided to start building predicting models and see the results. I will try to use factorization matrix and in case it fails I'm gonna use xgboost. I will try to make use of User_ID and Product_ID in that part because there is only one feature (Product_Category_1) that seems interesting between the rest.
+**Model**  
+I've decided to jump straight into basic xgboost model shown in model.py file. I've received nice score below 2479 RMSE. I will consider some feature engineering to boost my score.
